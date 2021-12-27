@@ -9,7 +9,7 @@ const Book = ({ title, author, id, handleDelete }) => {
         <button className="delete" onClick={() => handleDelete(id)}>
           delete
         </button>
-        {/* <button className="edit">edit</button> */}
+        <button className="edit">edit</button>
       </td>
     </tr>
   );
