@@ -4,7 +4,7 @@ import Books from "./components/Books";
 function App() {
   return (
     <div className="App">
-      {/* <h1 className="page-title">Booklist Firestore</h1> */}
+      <h1 className="page-title">Booklist Firestore</h1>
 
       <Books />
     </div>
